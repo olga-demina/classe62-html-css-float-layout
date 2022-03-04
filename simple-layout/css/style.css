@@ -1,0 +1,61 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    border: 1px solid green;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .float-right {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    float: right;
+}
+
+
+.float-left {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+} */
+
+
+header {
+    background-color: yellow;
+    height: 200px;
+}
+
+main {
+    background-color: blueviolet;
+    /* Regola di debug, da togliere */
+}
+
+footer {
+    background-color: aquamarine;
+    height: 150px;
+}
+
+.col-left {
+    float: left;
+    width: 30%;
+    background-color: cadetblue;
+}
+
+.col-right {
+    float: left;
+    width: 70%;
+    background-color: burlywood;
+}
